@@ -10,6 +10,9 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyRemoveLastKitten()){
-  return kittens.pop(name);
+  return kittens.pop();
 }
-function
+function destructivelyRemoveFirstKitten(){
+  return kittens.shift();
+}
+function 
